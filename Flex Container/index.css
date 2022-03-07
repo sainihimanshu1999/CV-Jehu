@@ -1,0 +1,27 @@
+body{
+    background-color: lightcoral;
+}
+
+.flexy{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    background-color: lavenderblush;
+}
+
+.flexy1{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex:1;
+}
+
+.flexy2{
+    background-color: khaki;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex:1;
+    
+}
