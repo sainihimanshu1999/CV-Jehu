@@ -1,0 +1,20 @@
+body{
+    background-color: slategray;
+}
+
+table.one,td.one,th.one{
+    border:1px solid red;
+    border-collapse: collapse;
+    width: 300px;
+    table-layout: fixed;
+    text-align: right;
+}
+
+table.two, td.two, th.two{
+    border: 5px dotted yellowgreen;
+    border-collapse: separate;
+    table-layout: auto;
+    height: 50px;
+    vertical-align: top;
+    caption-side: bottom;
+}
