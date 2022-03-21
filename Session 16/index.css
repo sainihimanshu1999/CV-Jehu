@@ -1,0 +1,56 @@
+body{
+    background-color: thistle;
+}
+
+ul.list li{
+    list-style:none;
+    position: relative;
+    padding: 3px 0px 2px 25px;
+
+}
+
+
+ul.list li::before{
+    content: '->';
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+ol.list2{
+    counter-reset: open;
+    list-style-type: none;
+}
+
+ol.list2 li{
+    display: block;
+}
+
+ol.list2 li::after{
+    content: counter(open)'   ';
+    counter-increment: open;
+}
+
+ol.list4{
+    background-color: rebeccapurple;
+    padding: 20px;
+}
+
+
+ul.list3{
+    background-color: red;
+    padding: 20px;
+}
+
+ol.list4 li{
+    background-color: aqua;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.list3 li{
+    background-color: aqua;
+    
+    margin-left: 35px;
+}
+
