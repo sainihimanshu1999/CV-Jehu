@@ -96,3 +96,165 @@ img {
 	padding-top: 5px;
 	text-align: justify;
 }
+
+.aboutbox {
+	background: #ffffff url(../images/bg-content2.gif) repeat-x bottom center;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#aboxcontent {
+	padding-top: 10px;  
+	overflow: hidden;
+	width: auto;
+}
+#sidebar {                /* keeping vision mission in the left side*/
+	float: left;       
+	padding-top: 0;
+	width: 320px;
+}
+
+#sidebar h3 {
+	color: #9BAF58;        /*styling H3*/
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	text-indent: 20px;
+}
+
+#sidebar ul {           /* removing defaults*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sidebar ul li {                  /* Heading-para format plus space between them*/
+	height: 205px;
+	padding: 15px 55px 0 35px;
+}
+
+#vision {
+	background: url(./images/bg-sidebar-item1.jpg) no-repeat;
+}
+
+#mission {
+	background: url(./images/bg-sidebar-item2.jpg) no-repeat;
+}
+#wecare {
+	background: url(./images/bg-sidebar-item3.jpg) no-repeat;
+}
+
+ov {
+	color: #FFFFFF;
+	display: block;
+	font-size: 25px;
+	font-style: italic;
+}
+/* Styling main content of Our vision mission we care*/
+#ovcontent{
+	line-height: 23px;
+	margin: 0;
+	padding-top: 0;
+}
+/* Styling main content of about page*/
+#aside span {
+	color: #fc9500;
+	display: block;
+	font-size: 20px;
+	padding-top: 50px;
+	
+}
+
+#aside p {
+	margin: 0;
+	line-height: 23px;
+	padding-top: 5px;
+	text-align: justify;
+}
+
+#footer {
+	
+	padding-top: 20px;
+}
+/* matching dimensions*/
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+/* moving social media*/
+#footer div div {
+	float: left;
+	margin-left: 65px;
+	width: 175px;
+}
+
+#socialmedia span {
+	color: #364818;
+	display: block;  /*break line after Follow Us*/
+	font-size: 18px;
+	padding-bottom: 20px;  /*space below follow us*/
+}
+/* Styling Link Text*/
+#socialmedia a {
+	color: #314810;
+	display: block;
+	margin-bottom: 15px;
+	text-decoration: none;
+	text-indent: 70px;
+}
+
+#socialmedia a:hover {
+	color: #82ae3f;
+}
+
+/* Social Media Icons*/
+#socialmedia a.facebook {
+	background: url(./images/facebook.png) no-repeat ;
+	line-height: 41px;
+}
+#socialmedia a.subscribe {
+	background: url(./images/subscribe.jpg) no-repeat ;
+	line-height: 41px;
+}
+#socialmedia a.twitter {
+	background: url(./images/twitter.png) no-repeat ;
+	line-height: 41px;
+}
+
+#socialmedia a.instagram {
+	background: url(./images/insta.jpg) no-repeat ;
+	line-height: 41px;
+}
+
+#mainfooter {
+	float: right;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 640px;
+}
+#mainfooter li {
+	background: url(./images/bg-footer-item.jpg) no-repeat;
+	float: left;
+	height: 251px;
+	width: 320px;
+}
+#mainfooter li p {
+	color: #ffffff;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 35px;
+	text-align: justify;
+}
+#footer p.footnote {
+	color: #2a460c;
+	padding: 5px 0;
+	text-align: center;
+}
+#footer p.footnote a {
+	color: #314810;
+	text-decoration:none;
+} 
+
