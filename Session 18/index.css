@@ -176,13 +176,13 @@ ov {
 	
 	padding-top: 20px;
 }
-/* matching dimensions*/
+
 #footer div {
 	margin: 0 auto;
 	overflow: hidden;
 	width: 960px;
 }
-/* moving social media*/
+
 #footer div div {
 	float: left;
 	margin-left: 65px;
@@ -195,7 +195,7 @@ ov {
 	font-size: 18px;
 	padding-bottom: 20px;  /*space below follow us*/
 }
-/* Styling Link Text*/
+
 #socialmedia a {
 	color: #314810;
 	display: block;
@@ -208,11 +208,11 @@ ov {
 	color: #82ae3f;
 }
 
-/* Social Media Icons*/
 #socialmedia a.facebook {
 	background: url(./images/facebook.png) no-repeat ;
 	line-height: 41px;
 }
+
 #socialmedia a.subscribe {
 	background: url(./images/subscribe.jpg) no-repeat ;
 	line-height: 41px;
@@ -235,12 +235,14 @@ ov {
 	padding: 0;
 	width: 640px;
 }
+
 #mainfooter li {
 	background: url(./images/bg-footer-item.jpg) no-repeat;
 	float: left;
 	height: 251px;
 	width: 320px;
 }
+
 #mainfooter li p {
 	color: #ffffff;
 	line-height: 23px;
@@ -248,13 +250,13 @@ ov {
 	padding: 0 35px;
 	text-align: justify;
 }
+
 #footer p.footnote {
 	color: #2a460c;
 	padding: 5px 0;
-	text-align: center;
-}
-#footer p.footnote a {
-	color: #314810;
-	text-decoration:none;
-} 
+	text-align: center;}
 
+	#footer p.footnote a {
+		color: #314810;
+		text-decoration:none;
+	} 
